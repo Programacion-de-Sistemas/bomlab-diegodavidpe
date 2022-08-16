@@ -1,0 +1,22 @@
+I am for medical liability at the federal level.
+
+0x0000555555555c30 <+0>:	endbr64 
+   0x0000555555555c34 <+4>:	sub    $0x8,%rsp
+   0x0000555555555c38 <+8>:	mov    %rsi,%rdx
+   0x0000555555555c3b <+11>:	lea    0x4(%rsi),%rcx
+   0x0000555555555c3f <+15>:	lea    0x14(%rsi),%rax
+   0x0000555555555c43 <+19>:	push   %rax
+   0x0000555555555c44 <+20>:	lea    0x10(%rsi),%rax
+   0x0000555555555c48 <+24>:	push   %rax
+   0x0000555555555c49 <+25>:	lea    0xc(%rsi),%r9
+   0x0000555555555c4d <+29>:	lea    0x8(%rsi),%r8
+   0x0000555555555c51 <+33>:	lea    0x16cb(%rip),%rsi        # 0x555555557323
+   0x0000555555555c58 <+40>:	mov    $0x0,%eax
+   0x0000555555555c5d <+45>:	call   0x555555555300 <__isoc99_sscanf@plt>
+   0x0000555555555c62 <+50>:	add    $0x10,%rsp
+   0x0000555555555c66 <+54>:	cmp    $0x5,%eax
+   0x0000555555555c69 <+57>:	jle    0x555555555c70 <read_six_numbers+64>
+   0x0000555555555c6b <+59>:	add    $0x8,%rsp
+   0x0000555555555c6f <+63>:	ret    
+   0x0000555555555c70 <+64>:	call   0x555555555c04 <explode_bomb>
+
